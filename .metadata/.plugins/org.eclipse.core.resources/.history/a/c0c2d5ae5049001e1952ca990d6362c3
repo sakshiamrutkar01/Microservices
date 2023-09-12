@@ -1,0 +1,50 @@
+package com.lcwd.user.service.UserService.Entity;
+
+public class Rating {
+
+	private String ratingId;
+	private String userId;
+	private String hotelId;
+	public String getHotelId() {
+		return hotelId;
+	}
+	public void setHotelId(String hotelId) {
+		this.hotelId = hotelId;
+	}
+	public String getRatingID() {
+		return ratingID;
+	}
+	public void setRatingID(String ratingID) {
+		this.ratingID = ratingID;
+	}
+	public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	
+	public int getRating() {
+		return rating;
+	}
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+	public String getFeedback() {
+		return feedback;
+	}
+	public void setFeedback(String feedback) {
+		this.feedback = feedback;
+	}
+	private int rating;
+	private String feedback;
+	
+	private Hotel hotel;
+	public Hotel getHotel() {
+		return hotel;
+	}
+	public void setHotel(Hotel hotel) {
+		this.hotel = hotel;
+	}
+	
+}
